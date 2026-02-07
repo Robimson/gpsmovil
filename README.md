@@ -1,0 +1,5 @@
+<img width="1280" height="2856" alt="seteoini" src="https://github.com/user-attachments/assets/2c4da903-7a84-4fa9-9203-6c5cca3dbc23" />
+<img width="1280" height="2856" alt="moni1" src="https://github.com/user-attachments/assets/271d3a28-2b1f-4743-9bd4-b83177322c76" />
+<img width="1410" height="773" alt="demostracion fire" src="https://github.com/user-attachments/assets/47caa240-0f5f-4692-b24c-2da449c58a47" />
+<img width="1280" height="2856" alt="mapa1" src="https://github.com/user-attachments/assets/bb95c99f-9d46-4a9e-975e-47c1b2d31144" />
+<img width="1280" height="2856" alt="mapa2seguimiento" src="https://github.com/user-attachments/assets/8466a14e-06d6-4b41-9a2c-c9ff0dd68d4c" />
