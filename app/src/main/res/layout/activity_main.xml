@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monitoreo de Sensores"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Lectura Temperatura -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="10dp">
+            <ImageView android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/temperatura" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:paddingStart="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Temperatura" android:textStyle="bold" />
+                <TextView android:id="@+id/valor_Temperatura" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="25 °C" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Lectura Humedad -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="10dp">
+            <ImageView android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/humedad" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:paddingStart="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Humedad" android:textStyle="bold" />
+                <TextView android:id="@+id/valor_Humedad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="25 %" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Lectura Presión -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="10dp">
+            <ImageView android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/presion" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:paddingStart="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Presión" android:textStyle="bold" />
+                <TextView android:id="@+id/valor_Presion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1500 hPa" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Lectura Velocidad -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="10dp">
+            <ImageView android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/velocidad" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:paddingStart="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Velocidad" android:textStyle="bold" />
+                <TextView android:id="@+id/valor_Velocidad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="150 km/h" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seteo de Sensores"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Seteo Temperatura -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="16dp">
+            <ImageView android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/temperatura" />
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:paddingStart="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Temperatura" android:textStyle="bold" />
+                <EditText android:id="@+id/setvalor_Temperatura" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="25" android:inputType="numberDecimal" />
+            </LinearLayout>
+            <Button android:id="@+id/clickBotonTemperatura" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Set" android:backgroundTint="#6750A4"/>
+        </LinearLayout>
+
+        <!-- Seteo Humedad -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:padding="16dp">
+            <ImageView android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/humedad" />
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:paddingStart="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Humedad" android:textStyle="bold" />
+                <EditText android:id="@+id/setvalor_Humedad" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="25" android:inputType="numberDecimal" />
+            </LinearLayout>
+            <Button android:id="@+id/clickBotonHumedad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Set" android:backgroundTint="#6750A4" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnIrMapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="ABRIR MAPA GPS"
+            android:backgroundTint="#4CAF50" />
+
+    </LinearLayout>
+</ScrollView>

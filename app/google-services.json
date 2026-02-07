@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "971248700096",
+    "firebase_url": "https://appmovilgps-default-rtdb.firebaseio.com",
+    "project_id": "appmovilgps",
+    "storage_bucket": "appmovilgps.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971248700096:android:d764ba5f77aea7d25cbb25",
+        "android_client_info": {
+          "package_name": "com.example.gpsmovil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHrj07pvhF2WwE3pJcp8tdUrK3p1HlR1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
