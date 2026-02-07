@@ -3,6 +3,7 @@
 Interfaz principal de la aplicación donde se visualizan en tiempo real los datos de temperatura, humedad, presión y velocidad, incluyendo controles para setear los sensores.
 
 <img width="300" alt="monitoreo" src="https://github.com/user-attachments/assets/7ae5c9dd-99d5-4ab8-a6bf-9996dde08c49" />
+
 ### Sincronización con Firebase
 Demostración de la integración con **Firebase Realtime Database**, asegurando que se actualice en la nube.
 <img width="600" alt="demostracion fire" src="https://github.com/user-attachments/assets/47caa240-0f5f-4692-b24c-2da449c58a47" />
