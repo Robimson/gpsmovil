@@ -75,7 +75,6 @@ public class MapaActivity extends AppCompatActivity implements OnMapReadyCallbac
             public void onLocationResult(@NonNull LocationResult locationResult) {
                 for (Location loc : locationResult.getLocations()) {
                     if (loc != null) {
-                        // Enviar coordenadas actuales a Firebase
                         coordRef.child("latitud").setValue(loc.getLatitude());
                         coordRef.child("longitud").setValue(loc.getLongitude());
                     }
