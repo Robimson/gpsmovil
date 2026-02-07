@@ -4,8 +4,9 @@
 
 ## Evidencia de Funcionamiento Remoto
 Esta es la prueba principal del proyecto. Las siguientes capturas muestran el rastreo en tiempo real de un dispositivo ubicado en una posición geográfica distante (compañero de equipo), confirmando la correcta recepción de coordenadas y sincronización del sistema GPS a larga distancia.
-<img width="1280" height="2856" alt="ubi1" src="https://github.com/user-attachments/assets/f0ccc606-1b67-4641-a653-8cff95c8e357" />
-<img width="1280" height="2856" alt="ubi2" src="https://github.com/user-attachments/assets/b6ddc7d6-7aba-4b68-9bad-420e98bff82d" />
+<img width="400" alt="ubi1" src="https://github.com/user-attachments/assets/f0ccc606-1b67-4641-a653-8cff95c8e357" />
+<img width="400" alt="ubi2" src="https://github.com/user-attachments/assets/b6ddc7d6-7aba-4b68-9bad-420e98bff82d" />
+<img width="300" alt="ubire1" src="https://github.com/user-attachments/assets/142026a7-d7f3-425f-a352-5bf7e20d6ae9" />
 
 
 
